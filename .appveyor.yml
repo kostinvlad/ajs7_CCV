@@ -15,10 +15,10 @@ install:
 build: off  # отключаем встроенную в appveyor систему сборки
 
 build_script:
-  - npm run build   # команда сборки
+  - yarn   # команда сборки
 
 test_script:
-  - npm run lint && npm test  # скрипт тестирования
+  - yarn test && yarn e2e # скрипт тестирования
 
 deploy_script:
   - git config --global credential.helper store
