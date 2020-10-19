@@ -1,0 +1,43 @@
+body {
+  text-align: center;  
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  margin: 0 auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {    
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+#pic_card {
+  margin: 0 auto;
+  width: 32px;
+  height: 32px; 
+}
+ 
+.mc{
+  background-size: cover;
+  background: url(../img/card_mastercard.png);
+}
+
+.visa{
+  background-size: cover;
+  background: url(../img/card_visa.png);
+}
+
+.invalid {
+  border: 2px solid red;
+}
+
+
+.valid {
+  border: 2px solid rgb(1, 138, 13);
+}
